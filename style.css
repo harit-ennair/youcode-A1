@@ -5,10 +5,14 @@
 /* -------------------------------- 
 		General Style
 -------------------------------- */
-html,
 body {
+  margin: 0%;
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  z-index: 2;
+  background-image: url('./images/minecraft-review-image-1024x587.jpg');
+  background-size: cover ;
+  backdrop-filter: blur(5px);
 }
 
 h2 {
@@ -27,9 +31,11 @@ p.intro-des {
   line-height: 35px;
   margin-top: 50px;
 }
+
 p.intro-des a {
   color: #3c3c3c;
 }
+
 p.intro-des span {
   font-size: 15px;
 }
@@ -74,15 +80,18 @@ p.intro-des span {
   justify-content: space-between;
   flex-wrap: nowrap;
 }
+
 .nav a,
 .navbar a {
   color: #3c3c3c;
   text-decoration: none;
 }
+
 .nav .nav-item,
 .navbar .nav-item {
   padding: 5px 0;
 }
+
 .nav .nav-item:after,
 .navbar .nav-item:after {
   content: " ";
@@ -95,6 +104,7 @@ p.intro-des span {
   transition: top 0.3s ease-out;
   -webkit-transition: top 0.3s ease-out;
 }
+
 .nav .nav-item:hover:after,
 .navbar .nav-item:hover:after {
   top: 7px;
@@ -118,6 +128,7 @@ section.page-container {
 #intro {
   max-width: 800px;
 }
+
 #intro .section-container {
   margin-top: 70px;
 }
@@ -130,6 +141,7 @@ section.page-container {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .section-container h4 {
   font-size: 50px;
   font-weight: 300;
@@ -150,6 +162,7 @@ section.page-container {
   -ms-perspective: 1000;
   perspective: 1000;
 }
+
 .button-container .flipper {
   transition: all 0.5s ease-in-out;
   -webkit-transform-style: preserve-3d;
@@ -157,6 +170,7 @@ section.page-container {
   transform-style: preserve-3d;
   position: relative;
 }
+
 .button-container .button {
   height: 45px;
   width: 200px;
@@ -171,15 +185,18 @@ section.page-container {
   -webkit-box-shadow: 1px 2px 4px -1px rgba(60, 60, 60, 0.64);
   box-shadow: 1px 2px 4px -1px rgba(60, 60, 60, 0.64);
 }
+
 .button-container .button i.fa {
   color: white;
   font-size: 20px;
   margin: auto;
   text-shadow: 0.5px 1px 2px #3c3c3c;
 }
+
 .button-container .button.front {
   z-index: 10;
 }
+
 .button-container .button.back {
   color: white;
   font-size: 15px;
@@ -196,10 +213,12 @@ section.page-container {
   background-repeat: repeat-x;
   transition: background-position 0.75s ease;
 }
+
 .button-water-fill .button:hover {
   background-position: 100% 60%;
   color: white !important;
 }
+
 .button-water-fill.wave-black .button {
   color: black;
   background-image: url("https://s32.postimg.org/g5kiaqxit/wave_black.png");
