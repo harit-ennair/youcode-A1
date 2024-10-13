@@ -30,14 +30,18 @@ p.intro-des {
   font-size: 20px;
   line-height: 35px;
   margin-top: 50px;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
 
 p.intro-des a {
-  color: #3c3c3c;
+  color: #ffffff;
 }
 
 p.intro-des span {
-  font-size: 15px;
+  font-size: 20px;
+  color: aliceblue;
 }
 
 .button-row-container {
@@ -123,6 +127,9 @@ section.page-container {
   height: 100vh;
   position: relative;
   text-align: center;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
 
 #intro {
